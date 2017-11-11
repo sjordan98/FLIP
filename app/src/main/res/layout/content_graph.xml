@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background3"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.laura.newssources.graphActivity"
+    tools:showIn="@layout/activity_graph">
+
+    <Button
+        android:id="@+id/buttonnyt"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="152dp"
+        android:layout_marginStart="140dp"
+        android:background="@mipmap/nyt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/buttoncnn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="185dp"
+        android:layout_marginStart="140dp"
+        android:background="@mipmap/cnn"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/buttonfox"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="152dp"
+        android:layout_marginStart="232dp"
+        android:background="@mipmap/foxlogo"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/buttoneconomist"
+        android:layout_width="60dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="240dp"
+        android:layout_marginEnd="52dp"
+        android:background="@mipmap/economist"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/buttonwsj"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="263dp"
+        android:layout_marginStart="168dp"
+        android:background="@mipmap/wsj"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/buttonmsnbc"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="152dp"
+        android:layout_marginEnd="240dp"
+        android:background="@mipmap/msnbclogo"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/buttonbbc"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="216dp"
+        android:layout_marginEnd="168dp"
+        android:background="@mipmap/bbc"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/buttonatlantic"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="212dp"
+        android:layout_marginEnd="208dp"
+        android:background="@mipmap/atlantic"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/buttonabc"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="224dp"
+        android:layout_marginStart="145dp"
+        android:background="@mipmap/abc"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/buttonguardian"
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="184dp"
+        android:layout_marginEnd="176dp"
+        android:background="@mipmap/guardian"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/buttonbuzzfeed"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="220dp"
+        android:background="@mipmap/buzzfeed"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="47dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="441dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="363dp" />
+
+
+</android.support.constraint.ConstraintLayout>
